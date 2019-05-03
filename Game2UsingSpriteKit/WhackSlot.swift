@@ -71,6 +71,7 @@ class WhackSlot: SKNode {
             self?.isVisible = false
         }
         
+        
         let sequence = SKAction.sequence([delay, hide, notVisible])
         charNode.run(sequence)
         
