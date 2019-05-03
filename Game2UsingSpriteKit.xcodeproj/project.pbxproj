@@ -15,6 +15,9 @@
 		9C4C632C227C408E008B1358 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C632A227C408E008B1358 /* Main.storyboard */; };
 		9C4C632E227C408F008B1358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C632D227C408F008B1358 /* Assets.xcassets */; };
 		9C4C6331227C408F008B1358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C632F227C408F008B1358 /* LaunchScreen.storyboard */; };
+		9C4C633A227C469E008B1358 /* whackBad.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C6338227C469E008B1358 /* whackBad.caf */; };
+		9C4C633B227C469E008B1358 /* whack.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9C4C6339227C469E008B1358 /* whack.caf */; };
+		9C4C633D227C49EB008B1358 /* WhackSlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4C633C227C49EB008B1358 /* WhackSlot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		9C4C632D227C408F008B1358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C4C6330227C408F008B1358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C4C6332227C408F008B1358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4C6338227C469E008B1358 /* whackBad.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whackBad.caf; sourceTree = "<group>"; };
+		9C4C6339227C469E008B1358 /* whack.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = whack.caf; sourceTree = "<group>"; };
+		9C4C633C227C49EB008B1358 /* WhackSlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhackSlot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		9C4C631F227C408D008B1358 /* Game2UsingSpriteKit */ = {
 			isa = PBXGroup;
 			children = (
+				9C4C633C227C49EB008B1358 /* WhackSlot.swift */,
 				9C4C6320227C408D008B1358 /* AppDelegate.swift */,
 				9C4C6322227C408D008B1358 /* GameScene.sks */,
 				9C4C6324227C408D008B1358 /* Actions.sks */,
@@ -69,6 +76,8 @@
 				9C4C632D227C408F008B1358 /* Assets.xcassets */,
 				9C4C632F227C408F008B1358 /* LaunchScreen.storyboard */,
 				9C4C6332227C408F008B1358 /* Info.plist */,
+				9C4C6339227C469E008B1358 /* whack.caf */,
+				9C4C6338227C469E008B1358 /* whackBad.caf */,
 			);
 			path = Game2UsingSpriteKit;
 			sourceTree = "<group>";
@@ -133,9 +142,11 @@
 			files = (
 				9C4C632C227C408E008B1358 /* Main.storyboard in Resources */,
 				9C4C6323227C408D008B1358 /* GameScene.sks in Resources */,
+				9C4C633B227C469E008B1358 /* whack.caf in Resources */,
 				9C4C632E227C408F008B1358 /* Assets.xcassets in Resources */,
 				9C4C6331227C408F008B1358 /* LaunchScreen.storyboard in Resources */,
 				9C4C6325227C408E008B1358 /* Actions.sks in Resources */,
+				9C4C633A227C469E008B1358 /* whackBad.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +159,7 @@
 			files = (
 				9C4C6327227C408E008B1358 /* GameScene.swift in Sources */,
 				9C4C6329227C408E008B1358 /* GameViewController.swift in Sources */,
+				9C4C633D227C49EB008B1358 /* WhackSlot.swift in Sources */,
 				9C4C6321227C408D008B1358 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
